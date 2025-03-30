@@ -10,7 +10,8 @@ import collections
 
 # Constants
 EPOCHS = 10
-IMG_HEIGHT = 32 
+IMG_HEIGHT = 32
+IMG_WIDTH = 32
 NUM_CATEGORIES = 43
 TEST_SIZE = 0.2
 
@@ -38,8 +39,8 @@ def main():
 
     model.evaluate(x_test, y_test, verbose=2)
 
-    model.save("best_model2.h5")
-    print("Model saved as best_model2.h5")
+    model.save("TEST_MODEL.h5")
+    print("Model saved as test_model.h5")
 
 def load_data(data_dir):
     """Loads images and labels from the dataset directory."""

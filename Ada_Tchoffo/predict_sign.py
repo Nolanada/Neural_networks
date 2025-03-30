@@ -10,7 +10,7 @@ from PIL import Image, ImageTk
 IMG_WIDTH = 32
 IMG_HEIGHT = 32
 NUM_CATEGORIES = 43
-MODEL_PATH = "best_model2.h5"
+MODEL_PATH = "best_model.h5"
 
 # Load the trained model
 model = tf.keras.models.load_model(MODEL_PATH)
