@@ -17,7 +17,7 @@ model = tf.keras.models.load_model(MODEL_PATH)
 
 # Class labels (Update with actual traffic sign names if available)
 CLASS_NAMES = {
-    0: "Speed Limit 20", 1: "Speed Limit 30", 2: "Speed Limit 50", 3: "Speed Limit 60",
+    0: "Speed Limit 20", 1: "Speed Limit 30", 2: "Speed Limit 60", 3: "Speed Limit 50",
     4: "Speed Limit 70", 5: "Speed Limit 80", 6: "End of Speed Limit 80", 7: "Speed Limit 100",
     8: "Speed Limit 120", 9: "No Overtaking", 10: "No Overtaking for Trucks",
     11: "Right of Way at Intersection", 12: "Priority Road", 13: "Yield", 14: "Stop",
